@@ -7,6 +7,6 @@ public class HelloWorldRepositoryImpl implements HelloWorldRepository{
 
     @Override
     public String getHelloWorld() {
-        return "Hello World";
+        return "Hello, world";
     }
 }
