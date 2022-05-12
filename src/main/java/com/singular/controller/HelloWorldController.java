@@ -13,8 +13,9 @@ public class HelloWorldController {
     public HelloWorldController(HelloService hs) {
         this.hs = hs;
     }
+
     @GetMapping("/Hello")
-    public String helloWorld(){
+    public String helloWorld() {
         return hs.getHello();
     }
 }
