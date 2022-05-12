@@ -3,10 +3,10 @@ package com.singular.repository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class HelloWorldImpl implements HelloWorldI{
+public class HelloWorldRepositoryImpl implements HelloWorldRepository{
 
     @Override
-    public String getPozdrav() {
+    public String getHelloWorld() {
         return "Hello World";
     }
 }
